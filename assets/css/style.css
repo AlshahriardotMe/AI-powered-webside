@@ -927,25 +927,166 @@ span {
     }
 }
 @media (max-width: 576px) {
-    .navber{
-        padding: 15px 15px;
+    .herder {
+        height: 1415px;
+    }
+    .nav-item {
+        text-align: center;
+    }
+    .nav-btn {
+        margin: 0 auto;
+        width: 163px;
+        height: 43px;
+        margin-top: 13px;
     }
     .logo-img {
-        width: 180px;
-        height: 36px;
-    }
-    .nav-btn{
-        width: 120px;
-        height: 36px;
+        width: 140px;
+        height: 28px;
     }
     .hero-text h1 {
-        font-size: 2rem;
+        font-size: 50px;
+        margin-bottom: -101px;
+        margin-top: 8px;
+        width: 295px;
     }
-    .highlight-box {
-        padding: 10px;
+    .hero-subsection {
+        flex-direction: column;
+        align-items: center;
+    }
+    .small-robot-img {
+        width: 150px;
+        height: 150px;
+        margin-left: 0px;
+    }
+    .hero-subsection-title {
+        width: 284px;
+        height: 132px;
+        font-size: 14px;
+    }
+    .stat-boxs {
+        flex-direction: column;
     }
     .stat-box {
-        padding: 5px;
+        margin-top: -71px;
+    }
+    .stat-box-two {
+        margin-top: 12px;
+    }
+    .stat-img-box {
+        width: 70px;
+        height: 70px;
+    }
+    .stat-img {
+        width: 40px;
+        height: 40px;
+    }
+    .text-muted-number {
+        font-size: 20px;
+        width: auto;
+        height: auto;
+        text-align: center;
+    }
+    .text-muted {
+        font-size: 13px;
+        text-align: center;
+    }
+    .highlight-box {
+        padding: 20px;
+        max-width: 295px;
+        width: 100%;
+        margin: 0 auto;
+        height: 260px;
+        margin-top: -37px;
+        margin-left: 0px;
+    }
+    .highlight-number {
+        font-size: 22px;
+    }
+    .highlight-title {
+        font-size: 16px;
+    }
+    .highlight-text {
+        font-size: 13px;
+        width: 100%;
+        height: auto;
+    }
+    .robot-img {
+        width: 100%;
+        max-width: 297px;
+        height: auto;
+        margin: 0 auto;
+        display: block;
+        margin-left: 0px;
+        padding: 4px;
+    }
+    .liveAi-section {
+        height: auto;
+        padding: 20px 5px;
+    }
+    .live-ai-box {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card {
+        width: 100%;
+        height: auto;
+        padding: 16px;
+        margin-top: 20px;
+    }
+    .card-right, .card-left {
+        width: 100%;
+        height: auto;
+        padding: 16px;
+        margin-top: 20px;
+        margin-left: -4px;
+    }
+    .card-info {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .card-text, .progress-box, .progress-boxs {
+        width: 100%;
+        height: auto;
+    }
+    .progress-container {
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .card-footer {
+        height: auto;
+        padding: 10px 0;
+    }
+    .card-footer-header, .card-footer-box, .card-footer-box-two,
+    .card-footer-box-three, .card-footer-boxs, .card-forms {
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+    }
+    .card-footer-box,
+    .card-footer-box-two,
+    .card-footer-box-three,
+    .card-footer-boxs {
+        width: 100%;
+        justify-content: center;
+    }
+    .chart-boxs {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .chart-box {
+        width: 100%;
+    }
+    .live-ai-meddle {
+        width: auto;
+        height: auto;
+        flex-direction: row;
+        border-radius: 49px;
+        margin: 10px auto;
+        justify-content: center;
+    }
+    .card-titles {
+        font-size: 20px;
     }
 }
 @media (max-width: 400px) {
