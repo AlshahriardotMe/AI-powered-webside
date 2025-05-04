@@ -1316,6 +1316,7 @@
     .stat-boxs {
         flex-direction: row;
         align-items: baseline;
+        justify-content: center;
     }
     .stat-box {
         margin-top: -71px;
@@ -1675,6 +1676,7 @@
     .stat-boxs {
         flex-direction: row;
         align-items: baseline;
+        justify-content: center;
     }
     .stat-box {
         margin-top: 40px;
