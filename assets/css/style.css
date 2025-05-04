@@ -102,7 +102,7 @@
 .stat-img-box{
 	width: 89px;
 	height: 86px;
-	border-radius: 20px;
+	border-radius: 15px;
 	background: #fff;
 	display: flex;
 	justify-content: center;
@@ -894,7 +894,7 @@
 	font-family: "Manrope";
 }
 .addres-icon{color: #001C4A;}
-span {
+.contact-icons {
 	margin-right: 10px;
 }
 .address {
@@ -904,26 +904,374 @@ span {
 
 /* Responsive Section */
 
-@media (max-width: 768px) {
-    .navber{
-        padding: 20px 20px;
+@media (max-width: 868px) {
+    .navber {
+        padding: 20px 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
     }
     .logo-img {
-        width: 200px;
-        height: 40px;
+        width: 180px;
+        height: auto;
+        margin-bottom: 16px;
     }
-    .nav-btn{
-        width: 140px;
-        height: 40px;
+    .nav-link,
+    .nav-link.active {
+        font-size: 13px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .nav-btn {
+        width: 100%;
+        height: 44px;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    .hero-section {
+        height: auto;
+        padding: 20px;
     }
     .hero-text h1 {
-        font-size: 2.5rem;
+        width: 100%;
+        height: auto;
+        font-size: 40px;
+        line-height: 110%;
+        text-align: center;
+        margin-top: 32px;
+    }
+    .hero-subsection {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .small-robot-img {
+        width: 150px;
+        height: auto;
+        margin-left: 0;
+    }
+    .hero-subsection-title {
+        width: 90%;
+        height: auto;
+        font-size: 18px;
+        text-align: center;
+    }
+    .stat-box,
+    .stat-box-two {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .text-muted-number {
+        font-size: 32px;
+        width: auto;
+        text-align: center;
+    }
+    .text-muted {
+        font-size: 16px;
+        text-align: center;
     }
     .highlight-box {
-        padding: 15px;
+        position: static;
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
     }
-    .stat-box {
-        padding: 10px;
+    .highlight-number {
+        font-size: 36px;
+        text-align: center;
+    }
+    .highlight-title {
+        font-size: 22px;
+        text-align: center;
+    }
+    .highlight-text {
+        font-size: 15px;
+        height: auto;
+        text-align: center;
+    }
+    .robot-img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        padding: 0;
+    }
+    .liveAi-section {
+        height: 1440px;
+        padding: 20px;
+    }
+    .live-ai-box {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+    .live-title {
+        font-size: 36px;
+        text-align: center;
+    }
+    .card {
+        width: 100%;
+        height: auto;
+    }
+    .card-info {
+        flex-direction: row;
+        gap: 12px;
+    }
+    .card-text {
+        width: 100%;
+        height: auto;
+    }
+    .card-footer-header,
+    .card-forms {
+        flex-direction: row;
+        gap: 20px;
+    }
+    .card-footer-box,
+    .card-footer-box-two,
+    .card-footer-box-three,
+    .card-footer-boxs {
+        width: 100%;
+        justify-content: center;
+    }
+    .card-footer-box p,
+    .card-footer-box-two p,
+    .card-footer-box-three p,
+    .card-footer-boxs p{
+        font-size: 8px;
+    }
+    .live-ai-meddle {
+        width: auto;
+        height: auto;
+        flex-direction: row;
+        border-radius: 49px;
+        margin: 10px auto;
+        justify-content: center;
+    }
+    .live-ai-right{
+        width: 100%;
+        margin-top: -8px;
+        padding: 16px;
+    }
+    .card-right{
+        width: 100%;
+        margin: 0;
+        margin-top: 20px;
+        padding: 16px;
+    }
+    .card-left {
+        width: 100%;
+        margin-top: 20px;
+        padding: 16px;
+        height: 330px;
+    }
+    .box-icon{
+        text-align: center;
+    }
+    .progress-box,
+    .progress-boxs,
+    .progress-container {
+        width: 100%;
+    }
+    .chart-boxs {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .chart-box {
+        width: 100%;
+    }
+    .card-titles {
+        font-size: 24px;
+        text-align: center;
+    }
+    .box p {
+        font-size: 16px;
+        text-align: center;
+    }
+    .course-card {
+        width: 100%;
+        height: auto;
+        padding: 30px 20px;
+    }
+    .our-courses-title {
+        font-size: 36px;
+        text-align: center;
+    }
+    .courses-text-box {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .our-courses-text {
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+    .course-btns,
+    .course-btn {
+        width: 100%;
+        height: auto;
+        padding: 14px;
+        font-size: 15px;
+    }
+    .course-title-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .times p {
+        width: auto;
+        padding: 10px 14px;
+        font-size: 14px;
+    }
+    .author {
+        font-size: 18px;
+    }
+    .course-card-title {
+        font-size: 20px;
+    }
+    .course-card-text {
+        font-size: 16px;
+    }
+    .constant-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0px;
+        margin-top: 50px;
+    }
+    .constant-title {
+        width: 100%;
+        font-size: 20px;
+    }
+    .constant-text {
+        width: 100%;
+        font-size: 36px;
+        margin-top: 40px;
+    }
+    .faq-title {
+        font-size: 28px;
+    }
+    .faq-number {
+        font-size: 24px;
+    }
+    .faq-answer {
+        padding-left: 20px;
+        font-size: 13px;
+    }
+    .icon-toggle {
+        font-size: 28px;
+    }
+    .testimonial-text {
+        font-size: 24px;
+        padding: 30px 16px 20px;
+    }
+    .testimonial-footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px 16px 30px;
+    }
+    .user-name {
+        font-size: 18px;
+    }
+    .user-title {
+        font-size: 14px;
+    }
+    .nav-controls {
+        width: 100%;
+        justify-content: space-between;
+        gap: 10px;
+    }
+    .nav-button {
+        width: 60px;
+        height: 44px;
+        font-size: 16px;
+        padding: 12px 20px;
+    }
+    .page-indicator {
+        font-size: 14px;
+    }
+    .page-total {
+        font-size: 12px;
+    }
+    .footer-bg {
+        height: auto;
+        padding: 40px 20px;
+    }
+    .footer-banner {
+        width: 100%;
+        height: auto;
+        padding: 40px 20px;
+        border-radius: 16px;
+        box-sizing: border-box;
+    }
+    .footer-title {
+        font-size: 24px;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .footer-text {
+        font-size: 14px;
+        text-align: center;
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+    .footer-btn {
+        margin: 20px auto;
+        width: auto;
+        height: auto;
+        padding: 12px 24px;
+        font-size: 12px;
+        display: block;
+    }
+    .footer-img-info img {
+        width: 120px;
+        height: auto;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .info-text {
+        width: 100%;
+        height: auto;
+        font-size: 13px;
+        text-align: center;
+    }
+    .social-icon {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .navigation,
+    .contact,
+    .licence {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .navigation-title,
+    .contact-title,
+    .licence-title {
+        font-size: 16px;
+    }
+    .navigation-text,
+    .contact-text,
+    .licence-text,
+    .contact-texts {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .address {
+        align-items: center;
+        gap: 6px;
+        justify-content: center;
+    }
+    .contact-icons {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    .icon {
+        margin-top: 8px;
+    }
+    .addres-icon{
+        margin-top: 14px;
     }
 }
 @media (max-width: 576px) {
@@ -945,13 +1293,14 @@ span {
     }
     .hero-text h1 {
         font-size: 50px;
-        margin-bottom: -101px;
         margin-top: 8px;
-        width: 295px;
+        width: 384px;
+        height: 190px;
     }
     .hero-subsection {
         flex-direction: column;
         align-items: center;
+        height: 210px;
     }
     .small-robot-img {
         width: 150px;
@@ -959,12 +1308,14 @@ span {
         margin-left: 0px;
     }
     .hero-subsection-title {
-        width: 284px;
+        width: 375px;
         height: 132px;
         font-size: 14px;
+        margin-top: 26px;
     }
     .stat-boxs {
-        flex-direction: column;
+        flex-direction: row;
+        align-items: baseline;
     }
     .stat-box {
         margin-top: -71px;
@@ -973,12 +1324,12 @@ span {
         margin-top: 12px;
     }
     .stat-img-box {
-        width: 70px;
-        height: 70px;
+        width: 50px;
+        height: 50px;
     }
     .stat-img {
-        width: 40px;
-        height: 40px;
+        width: 25px;
+        height: 25px;
     }
     .text-muted-number {
         font-size: 20px;
@@ -992,7 +1343,7 @@ span {
     }
     .highlight-box {
         padding: 20px;
-        max-width: 295px;
+        max-width: 390px;
         width: 100%;
         margin: 0 auto;
         height: 260px;
@@ -1012,12 +1363,11 @@ span {
     }
     .robot-img {
         width: 100%;
-        max-width: 297px;
+        max-width: 421px;
         height: auto;
-        margin: 0 auto;
         display: block;
         margin-left: 0px;
-        padding: 4px;
+        padding: 0px;
     }
     .liveAi-section {
         height: auto;
@@ -1088,6 +1438,203 @@ span {
     .card-titles {
         font-size: 20px;
     }
+    .course-card {
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    .our-courses-title {
+        font-size: 32px;
+        text-align: center;
+    }
+    .courses-text-box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .our-courses-text {
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+    .course-btns,
+    .course-btn {
+        width: 100%;
+        height: auto;
+        font-size: 14px;
+        padding: 12px;
+    }
+    .course-title-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    .times p {
+        width: auto;
+        padding: 8px 12px;
+        font-size: 14px;
+        text-align: center;
+    }
+    .author {
+        font-size: 16px;
+        text-align: center;
+    }
+    .course-card-title {
+        font-size: 20px;
+    }
+    .course-card-text {
+        font-size: 16px;
+    }
+    .constant-box {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0px;
+        margin-top: 50px;
+    }
+    .constant-title {
+        font-size: 18px;
+        width: 100%;
+    }
+    .constant-text {
+        font-size: 32px;
+        width: 100%;
+        margin-top: 40px;
+    }
+    .faq-number {
+        font-size: 24px;
+        margin-right: 10px;
+    }
+    .faq-title {
+        font-size: 24px;
+    }
+    .faq-answer {
+        padding-left: 20px;
+        font-size: 13px;
+    }
+    .icon-toggle {
+        font-size: 28px;
+    }
+    .testimonial-text {
+        font-size: 24px;
+        padding: 30px 15px 20px;
+        text-align: center;
+    }
+    .testimonial-footer {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 20px 15px 30px;
+    }
+    .testimonial-user {
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+    .user-name {
+        font-size: 18px;
+    }
+    .user-title {
+        font-size: 14px;
+    }
+    .nav-controls {
+        justify-content: space-between;
+        width: 90%;
+        gap: 10px;
+    }
+    .nav-button {
+        width: 100%;
+        font-size: 16px;
+        padding: 12px 0;
+    }
+    .page-indicator,
+    .page-total {
+        font-size: 14px;
+        text-align: center;
+        width: 100%;
+    }
+    .footer-bg {
+        height: auto;
+        padding: 20px;
+    }
+    .footer-banner {
+        width: 100%;
+        height: auto;
+        padding: 40px 20px;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-title {
+        font-size: 24px;
+        text-align: center;
+    }
+    .footer-text {
+        font-size: 14px;
+        text-align: center;
+        padding: 0 10px;
+    }
+    .footer-btn {
+        margin: 20px auto 0 auto;
+        width: auto;
+        height: auto;
+        padding: 14px 28px;
+        font-size: 13px;
+    }
+    .footer-img-info img {
+        width: 100px;
+        height: auto;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .info-text {
+        width: 100%;
+        height: auto;
+        font-size: 13px;
+        text-align: center;
+    }
+    .social-icon {
+        justify-content: center;
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+    .icon {
+        width: 30px;
+        height: 30px;
+        margin-top: 8px;
+    }
+    .navigation,
+    .contact,
+    .licence {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .navigation-title,
+    .contact-title,
+    .licence-title {
+        font-size: 16px;
+    }
+    .navigation-text,
+    .contact-text,
+    .licence-text,
+    .contact-texts {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+    .address {
+        align-items: center;
+        gap: 6px;
+        justify-content: center;
+    }
+    .contact-icons {
+        margin-right: 0;
+    }
+    .addres-icon{
+        margin-top: 14px;
+    }
+
+
 }
 @media (max-width: 400px) {
     .herder{
@@ -1108,7 +1655,6 @@ span {
     }
     .hero-text h1 {
         font-size: 50px;
-        margin-bottom: -101px;
         margin-top: 8px;
         width: 295px;
     }
@@ -1127,37 +1673,37 @@ span {
         font-size: 14px;
     }
     .stat-boxs {
-        flex-direction: column;
+        flex-direction: row;
+        align-items: baseline;
     }
     .stat-box {
-        margin-top: -71px;
+        margin-top: 40px;
     }
     .stat-box-two {
         margin-top: 12px;
     }
     .stat-img-box {
-        width: 70px;
-        height: 70px;
-    }
-    .stat-img {
         width: 40px;
         height: 40px;
     }
+    .stat-img {
+        width: 15px;
+        height: 15px;
+    }
     .text-muted-number {
-        font-size: 20px;
+        font-size: 15px;
         width: auto;
         height: auto;
         text-align: center;
     }
     .text-muted {
-        font-size: 13px;
+        font-size: 10px;
         text-align: center;
     } 
     .highlight-box {
         padding: 20px;
-        max-width: 295px;
+        max-width: 335px;
         width: 100%;
-        margin: 0 auto;
         height: 260px;
         margin-top: -37px;
         margin-left: 0px;
@@ -1175,12 +1721,11 @@ span {
     }
     .robot-img {
         width: 100%;
-        max-width: 297px;
+        max-width: 335px;
         height: auto;
-        margin: 0 auto;
         display: block;
         margin-left: 0px;
-        padding: 4px;
+        padding: 0px;
     }
     .liveAi-section {
         height: auto;
@@ -1263,45 +1808,40 @@ span {
         width: 100%;
         height: auto;
         padding: 20px;
-        border-radius: 10px;
     }
     .our-courses-title {
-        font-size: 24px;
+        font-size: 28px;
         text-align: center;
     }
     .courses-text-box {
         flex-direction: column;
-        gap: 20px;
-        align-items: flex-start;
+        align-items: center;
     }
     .our-courses-text {
         width: 100%;
         font-size: 16px;
-        line-height: 140%;
-        text-align: justify;
+        text-align: center;
     }
-    .course-btns, 
+    .course-btns,
     .course-btn {
         width: 100%;
-        height: 50px;
+        height: auto;
+        padding: 14px;
         font-size: 14px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     .course-title-box {
         flex-direction: column;
         align-items: flex-start;
-        gap: 10px;
     }
     .times p {
-        width: 100%;
-        height: auto;
+        width: auto;
         padding: 8px 12px;
         font-size: 14px;
+        text-align: center;
     }
     .author {
         font-size: 16px;
+        text-align: center;
     }
     .course-card-title {
         font-size: 20px;
@@ -1459,7 +1999,7 @@ span {
         align-items: center;
         gap: 5px;
     }
-    span {
+    .contact-icons {
         margin-right: 5px;
     }
     .icon {
@@ -1840,7 +2380,7 @@ span {
         align-items: center;
         gap: 5px;
     }
-    span {
+    .contact-icons {
         margin-right: 5px;
     }
     .icon {
